@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    float: left;
+}
+h2{
+    background-color: thistle;
+}
+aside{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+header{
+    background-image: url();
+
+}
+nav li{
+    border: rgb(250, 188, 72), inset, 5px,5px,5px,5px;
+    background-color: rgb(250, 188, 72);
+}
+footer p{
+    text-align: center;
+    font-size: smaller;
+}
+article{
+    border:solid,grey,1px;
+}
