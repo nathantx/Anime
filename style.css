@@ -1,28 +1,70 @@
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    float: left;
+html{
+    background-color: black;
 }
-h2{
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30pt;
+    float: left;
+    text-decoration: white;
+}
+
+h2 {
     background-color: thistle;
 }
-aside{
+
+aside {
     float: right;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
+    width: 40%;
 }
-header{
-    background-image: url();
 
+header {
+    background-image: url(https://i.pinimg.com/originals/3a/fc/fc/3afcfcafb55d99e30d9a7ffab4ed96c7.jpg);
+    height:500px ;
 }
-nav li{
-    border: rgb(250, 188, 72), inset, 5px,5px,5px,5px;
+
+.link {
+    border: 5px outset rgb(250, 188, 72);
     background-color: rgb(250, 188, 72);
+    text-align: end;
+    float: left;
+    width: 150px ;
+    text-align: center;
 }
-footer p{
+
+footer p {
     text-align: center;
     font-size: smaller;
 }
-article{
-    border:solid,grey,1px;
+
+article {
+    border: solid, grey, 1px;
+    background-color: white;
+}
+
+html {
+    max-width: width 1000px;
+    ;
+    min-width: 700px;
+}
+
+nav {
+    background-image: url();
+    font-family:'Times New Roman', Times, serif;
+    float: left;
+    font-size: larger;    
+}
+
+section{
+    border: solid gray 5px;
+    width: 60%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+nav p{
+    margin-right: 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
